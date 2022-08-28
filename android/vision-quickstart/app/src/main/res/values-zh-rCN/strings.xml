@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources> 
+  <string name="app_name" translatable="true">Google MLKit-视觉</string>
+  <string name="java_entry_title" translatable="true">运行用 Java 编写的 ML Kit 快速入门</string>  
+  <string name="kotlin_entry_title" translatable="true">运行用 Kotlin 编写的 ML Kit 快速入门</string>  
+  <string name="ok" translatable="true">好的</string>  
+  <string name="permission_camera_rationale" translatable="true">需要访问摄像头才能进行检测</string>  
+  <string name="no_camera_permission" translatable="true">此应用程序无法运行，因为它没有摄像头权限。 应用程序现在将退出。</string>  
+  <string name="low_storage_error" translatable="true">由于设备存储空间不足，无法下载人脸检测器依赖项</string>  
+  <string name="toggle_turn_on" translatable="true">正面</string>  
+  <string name="toggle_turn_off" translatable="true">后退</string>  
+  <string name="desc_camera_source_activity" translatable="true">带有实时摄像头预览的视觉探测器演示</string>  
+  <string name="desc_still_image_activity" translatable="true">带有静止图像的视觉检测器演示</string>  
+  <string name="desc_camerax_live_preview_activity" translatable="true">使用 CameraX 进行实时预览的视觉探测器演示。 请注意，CameraX 仅在 API 21+ 上受支持</string>  
+  <string name="desc_cameraxsource_demo_activity" translatable="true">使用 ML Kit CameraXSource API 使用自定义分类器进行对象检测。 请注意，CameraX 仅在 API 21+ 上受支持</string>  
+  <string name="download_error" translatable="true">下载错误</string>  
+  <string name="start_over" translatable="true">重来</string>  
+  <string name="menu_item_settings" translatable="true">设置</string>  
+  <string name="select_image" translatable="true">选择图片</string>  
+  <string name="custom_object_detection" translatable="true">自定义对象检测器</string>  
+  <string name="pref_screen" translatable="true">Ps</string>  
+  <string name="pref_screen_title_live_preview" translatable="true">实时预览设置</string>  
+  <string name="pref_screen_title_still_image" translatable="true">静止图像设置</string>  
+  <string name="pref_screen_title_camerax_live_preview" translatable="true">CameraX 实时预览设置</string>  
+  <string name="pref_screen_title_cameraxsource_demo" translatable="true">CameraXSource 实时预览设置</string>  
+  <string name="pref_category_info" translatable="true">检测信息</string>  
+  <string name="pref_category_face_detection" translatable="true">人脸检测</string>  
+  <string name="pref_category_object_detection" translatable="true">对象检测/自定义对象检测</string>  
+  <string name="pref_category_automl" translatable="true">AutoML 图像标注</string>  
+  <string name="pref_category_pose_detection" translatable="true">姿势检测</string>  
+  <string name="pref_category_segmentation" translatable="true">自拍分割</string>  
+  <string name="pref_category_text_recognition" translatable="true">文本识别</string>  
+  <string name="pref_category_key_camera" translatable="true">Pckc</string>  
+  <string name="pref_category_title_camera" translatable="true">相机</string>  
+  <string name="pref_key_rear_camera_preview_size" translatable="true">Rcpv</string>  
+  <string name="pref_key_rear_camera_picture_size" translatable="true">收据</string>  
+  <string name="pref_key_front_camera_preview_size" translatable="true">Fcpvs</string>  
+  <string name="pref_key_front_camera_picture_size" translatable="true">Fcpts</string>  
+  <string name="pref_key_camerax_rear_camera_target_resolution" translatable="true">Crctas</string>  
+  <string name="pref_key_camerax_front_camera_target_resolution" translatable="true">Cfctas</string>  
+  <string name="pref_key_camera_live_viewport" translatable="true">Clv</string>  
+  <string name="pref_title_rear_camera_preview_size" translatable="true">后置摄像头预览尺寸</string>  
+  <string name="pref_title_front_camera_preview_size" translatable="true">前置摄像头预览尺寸</string>  
+  <string name="pref_title_camerax_rear_camera_target_resolution" translatable="true">CameraX 后置摄像头目标分辨率</string>  
+  <string name="pref_title_camerax_front_camera_target_resolution" translatable="true">CameraX前置摄像头目标分辨率</string>  
+  <string name="pref_title_camera_live_viewport" translatable="true">启用实时视口</string>  
+  <string name="pref_summary_camera_live_viewport" translatable="true">不要在检测时阻止相机预览绘图</string>  
+  <string name="pref_title_info_hide" translatable="true">隐藏检测信息</string>  
+  <string name="pref_key_info_hide" translatable="true">我</string>  
+  <string name="pref_title_group_recognized_text_in_blocks" translatable="true">对段落中识别的文本进行分组</string>  
+  <string name="pref_key_group_recognized_text_in_blocks" translatable="true">格提布</string>  
+  <string name="pref_title_show_language_tag" translatable="true">显示识别的语言</string>  
+  <string name="pref_key_show_language_tag" translatable="true">Slt</string>  
+  <string name="pref_title_show_text_confidence" translatable="true">显示置信度分数</string>  
+  <string name="pref_key_show_text_confidence" translatable="true">Stc</string>  
+  <string name="pref_title_object_detector_enable_multiple_objects" translatable="true">启用多个对象</string>  
+  <string name="pref_key_live_preview_object_detector_enable_multiple_objects" translatable="true">Lpodemo</string>  
+  <string name="pref_key_still_image_object_detector_enable_multiple_objects" translatable="true">演示</string>  
+  <string name="pref_title_object_detector_enable_classification" translatable="true">启用分类</string>  
+  <string name="pref_key_live_preview_object_detector_enable_classification" translatable="true">解码器</string>  
+  <string name="pref_key_still_image_object_detector_enable_classification" translatable="true">硅解码器</string>  
+  <string name="pref_title_face_detector_landmark_mode" translatable="true">地标模式</string>  
+  <string name="pref_key_live_preview_face_detection_landmark_mode" translatable="true">Lpfdlm</string>  
+  <string name="pref_entries_face_detector_landmark_mode_no_landmarks" translatable="true">没有地标</string>  
+  <string name="pref_entries_face_detector_landmark_mode_all_landmarks" translatable="true">所有地标</string>  
+  <string name="pref_entry_values_face_detector_landmark_mode_no_landmarks" translatable="true">1</string>  
+  <string name="pref_entry_values_face_detector_landmark_mode_all_landmarks" translatable="true">2</string>  
+  <string name="pref_title_face_detector_contour_mode" translatable="true">轮廓模式</string>  
+  <string name="pref_key_live_preview_face_detection_contour_mode" translatable="true">Lpfdcm</string>  
+  <string name="pref_entries_face_detector_contour_mode_no_contours" translatable="true">没有轮廓</string>  
+  <string name="pref_entries_face_detector_contour_mode_all_contours" translatable="true">所有轮廓</string>  
+  <string name="pref_entry_values_face_detector_contour_mode_no_contours" translatable="true">1</string>  
+  <string name="pref_entry_values_face_detector_contour_mode_all_contours" translatable="true">2</string>  
+  <string name="pref_title_face_detector_classification_mode" translatable="true">分类方式</string>  
+  <string name="pref_key_live_preview_face_detection_classification_mode" translatable="true">Lpfdcfm</string>  
+  <string name="pref_entries_face_detector_classification_mode_no_classifications" translatable="true">没有分类</string>  
+  <string name="pref_entries_face_detector_classification_mode_all_classifications" translatable="true">所有分类</string>  
+  <string name="pref_entry_values_face_detector_classification_mode_no_classifications" translatable="true">1</string>  
+  <string name="pref_entry_values_face_detector_classification_mode_all_classifications" translatable="true">2</string>  
+  <string name="pref_title_face_detector_performance_mode" translatable="true">表演模式</string>  
+  <string name="pref_key_live_preview_face_detection_performance_mode" translatable="true">Lpfdpm</string>  
+  <string name="pref_entries_face_detector_performance_mode_fast" translatable="true">快速地</string>  
+  <string name="pref_entries_face_detector_performance_mode_accurate" translatable="true">准确的</string>  
+  <string name="pref_entry_values_face_detector_performance_mode_fast" translatable="true">1</string>  
+  <string name="pref_entry_values_face_detector_performance_mode_accurate" translatable="true">2</string>  
+  <string name="pref_title_face_detector_face_tracking" translatable="true">人脸追踪</string>  
+  <string name="pref_key_live_preview_face_detection_face_tracking" translatable="true">Lpfdft</string>  
+  <string name="pref_title_face_detector_min_face_size" translatable="true">最小人脸尺寸</string>  
+  <string name="pref_key_live_preview_face_detection_min_face_size" translatable="true">Lpfdmfs</string>  
+  <string name="pref_dialog_message_face_detector_min_face_size" translatable="true">头部宽度与图像宽度的比例，有效值范围为[0.0, 1.0]</string>  
+  <string name="pref_toast_invalid_min_face_size" translatable="true">最小人脸尺寸必须是浮点值并且在 [0.0, 1.0] 范围内</string>  
+  <string name="pref_title_pose_detector_performance_mode" translatable="true">表演模式</string>  
+  <string name="pref_key_live_preview_pose_detection_performance_mode" translatable="true">Lppdpm</string>  
+  <string name="pref_key_still_image_pose_detection_performance_mode" translatable="true">Sipdpm</string>  
+  <string name="pref_entries_pose_detector_performance_mode_fast" translatable="true">快速地</string>  
+  <string name="pref_entries_pose_detector_performance_mode_accurate" translatable="true">准确的</string>  
+  <string name="pref_entry_values_pose_detector_performance_mode_fast" translatable="true">1</string>  
+  <string name="pref_entry_values_pose_detector_performance_mode_accurate" translatable="true">2</string>  
+  <string name="pref_title_pose_detector_prefer_gpu" translatable="true">更喜欢使用 GPU</string>  
+  <string name="pref_key_pose_detector_prefer_gpu" translatable="true">Pdpg</string>  
+  <string name="pref_summary_pose_detector_prefer_gpu" translatable="true">如果启用，只要 GPU 可用、稳定并返回正确的结果，就会使用它。 在这种情况下，检测器不会检查 GPU 是否真的比 CPU 快。</string>  
+  <string name="pref_title_pose_detector_show_in_frame_likelihood" translatable="true">显示帧内可能性</string>  
+  <string name="pref_key_live_preview_pose_detector_show_in_frame_likelihood" translatable="true">Lppdsifl</string>  
+  <string name="pref_key_still_image_pose_detector_show_in_frame_likelihood" translatable="true">Sipdsifl</string>  
+  <string name="pref_title_pose_detector_visualize_z" translatable="true">可视化 z 值</string>  
+  <string name="pref_key_pose_detector_visualize_z" translatable="true">Pdvz</string>  
+  <string name="pref_title_pose_detector_rescale_z" translatable="true">重新缩放 z 值以进行可视化</string>  
+  <string name="pref_key_pose_detector_rescale_z" translatable="true">Pdrz</string>  
+  <string name="pref_title_pose_detector_run_classification" translatable="true">运行分类</string>  
+  <string name="pref_key_pose_detector_run_classification" translatable="true">Pdrc</string>  
+  <string name="pref_summary_pose_detector_run_classification" translatable="true">对深蹲和俯卧撑姿势进行分类。 在流模式下计算代表。 要根据当前样本数据获得最佳分类结果，请将相机侧向并确保您的全身在画面中。</string>  
+  <string name="pref_title_segmentation_raw_size_mask" translatable="true">启用原始尺寸掩码</string>  
+  <string name="pref_key_segmentation_raw_size_mask" translatable="true">Srsm</string>  
+  <string name="object_detection">物体检测</string>  
+  <string name="object_detection_custom">自定义对象检测</string>  
+  <string name="custom_automl_object_detection">自定义 AutoML 对象检测（花）</string>  
+  <string name="face_detection">人脸检测</string>  
+  <string name="barcode_scanning">二维码扫描</string>  
+  <string name="image_labeling">图像标注</string>  
+  <string name="image_labeling_custom">自定义图像标签（鸟类）</string>  
+  <string name="custom_automl_labeling">自定义 AutoML 图像标签（花）</string>  
+  <string name="pose_detection">姿势检测</string>  
+  <string name="selfie_segmentation">自拍分割</string>  
+  <string name="text_recognition_latin">文本识别拉丁文</string>  
+  <string name="text_recognition_chinese">文字识别中文</string>  
+  <string name="text_recognition_devanagari">文本识别梵文</string>  
+  <string name="text_recognition_japanese">文字识别日语</string>  
+  <string name="text_recognition_korean">文字识别韩语</string>  
+  <string name="state_selected_model">Selected_model</string>
+  <string name="select_image_from_album">从相册中选择图片</string>
+  <string name="take_photo">拍照</string>
+</resources>

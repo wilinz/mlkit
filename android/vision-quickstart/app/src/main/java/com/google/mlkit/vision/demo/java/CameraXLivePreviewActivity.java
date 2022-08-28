@@ -79,7 +79,7 @@ public final class CameraXLivePreviewActivity extends AppCompatActivity
     implements OnItemSelectedListener, CompoundButton.OnCheckedChangeListener {
   private static final String TAG = "CameraXLivePreview";
 
-  private static final String OBJECT_DETECTION = "Object Detection";
+  private static final String OBJECT_DETECTION = "C";
   private static final String OBJECT_DETECTION_CUSTOM = "Custom Object Detection";
   private static final String CUSTOM_AUTOML_OBJECT_DETECTION =
       "Custom AutoML Object Detection (Flower)";

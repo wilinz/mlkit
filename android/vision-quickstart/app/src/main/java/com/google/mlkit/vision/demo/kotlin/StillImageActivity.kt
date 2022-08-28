@@ -67,10 +67,26 @@ import kotlin.math.max
 /** Activity demonstrating different image detector features with a still image from camera.  */
 @KeepName
 class StillImageActivity : AppCompatActivity() {
+
+  private val OBJECT_DETECTION get() = getString(R.string.object_detection)
+  private val OBJECT_DETECTION_CUSTOM get() = getString(R.string.object_detection_custom)
+  private val CUSTOM_AUTOML_OBJECT_DETECTION get() = getString(R.string.custom_automl_object_detection)
+  private val FACE_DETECTION get() = getString(R.string.face_detection)
+  private val TEXT_RECOGNITION_LATIN get() = getString(R.string.text_recognition_latin)
+  private val TEXT_RECOGNITION_CHINESE get() = getString(R.string.text_recognition_chinese)
+  private val TEXT_RECOGNITION_DEVANAGARI get() = getString(R.string.text_recognition_devanagari)
+  private val TEXT_RECOGNITION_JAPANESE get() = getString(R.string.text_recognition_japanese)
+  private val TEXT_RECOGNITION_KOREAN get() = getString(R.string.text_recognition_korean)
+  private val BARCODE_SCANNING get() = getString(R.string.barcode_scanning)
+  private val IMAGE_LABELING get() = getString(R.string.image_labeling)
+  private val IMAGE_LABELING_CUSTOM get() = getString(R.string.image_labeling_custom)
+  private val CUSTOM_AUTOML_LABELING get() = getString(R.string.custom_automl_labeling)
+  private val POSE_DETECTION get() = getString(R.string.pose_detection)
+  private val SELFIE_SEGMENTATION get() = getString(R.string.selfie_segmentation)
+
   private var preview: ImageView? = null
   private var graphicOverlay: GraphicOverlay? = null
-  private var selectedMode =
-    OBJECT_DETECTION
+  private lateinit var selectedMode: String
   private var selectedSize: String? =
     SIZE_SCREEN
   private var isLandScape = false
@@ -84,6 +100,7 @@ class StillImageActivity : AppCompatActivity() {
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
     setContentView(R.layout.activity_still_image)
+    selectedMode = OBJECT_DETECTION
     findViewById<View>(R.id.select_image_button)
       .setOnClickListener { view: View ->
         // Menu for selecting either: a) take new photo b) select from existing
@@ -546,21 +563,21 @@ class StillImageActivity : AppCompatActivity() {
 
   companion object {
     private const val TAG = "StillImageActivity"
-    private const val OBJECT_DETECTION = "Object Detection"
-    private const val OBJECT_DETECTION_CUSTOM = "Custom Object Detection"
-    private const val CUSTOM_AUTOML_OBJECT_DETECTION = "Custom AutoML Object Detection (Flower)"
-    private const val FACE_DETECTION = "Face Detection"
-    private const val BARCODE_SCANNING = "Barcode Scanning"
-    private const val TEXT_RECOGNITION_LATIN = "Text Recognition Latin"
-    private const val TEXT_RECOGNITION_CHINESE = "Text Recognition Chinese"
-    private const val TEXT_RECOGNITION_DEVANAGARI = "Text Recognition Devanagari"
-    private const val TEXT_RECOGNITION_JAPANESE = "Text Recognition Japanese"
-    private const val TEXT_RECOGNITION_KOREAN = "Text Recognition Korean"
-    private const val IMAGE_LABELING = "Image Labeling"
-    private const val IMAGE_LABELING_CUSTOM = "Custom Image Labeling (Birds)"
-    private const val CUSTOM_AUTOML_LABELING = "Custom AutoML Image Labeling (Flower)"
-    private const val POSE_DETECTION = "Pose Detection"
-    private const val SELFIE_SEGMENTATION = "Selfie Segmentation"
+//    private const val OBJECT_DETECTION = "Object Detection"
+//    private const val OBJECT_DETECTION_CUSTOM = "Custom Object Detection"
+//    private const val CUSTOM_AUTOML_OBJECT_DETECTION = "Custom AutoML Object Detection (Flower)"
+//    private const val FACE_DETECTION = "Face Detection"
+//    private const val BARCODE_SCANNING = "Barcode Scanning"
+//    private const val TEXT_RECOGNITION_LATIN = "Text Recognition Latin"
+//    private const val TEXT_RECOGNITION_CHINESE = "Text Recognition Chinese"
+//    private const val TEXT_RECOGNITION_DEVANAGARI = "Text Recognition Devanagari"
+//    private const val TEXT_RECOGNITION_JAPANESE = "Text Recognition Japanese"
+//    private const val TEXT_RECOGNITION_KOREAN = "Text Recognition Korean"
+//    private const val IMAGE_LABELING = "Image Labeling"
+//    private const val IMAGE_LABELING_CUSTOM = "Custom Image Labeling (Birds)"
+//    private const val CUSTOM_AUTOML_LABELING = "Custom AutoML Image Labeling (Flower)"
+//    private const val POSE_DETECTION = "Pose Detection"
+//    private const val SELFIE_SEGMENTATION = "Selfie Segmentation"
 
     private const val SIZE_SCREEN = "w:screen" // Match screen width
     private const val SIZE_1024_768 = "w:1024" // ~1024*768 in a normal ratio
